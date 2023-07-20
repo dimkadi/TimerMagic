@@ -105,3 +105,42 @@ a {
     color-scheme: dark;
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#timerDisplay {
+  font-size: 88px;
+  margin-top: 0px;
+  margin-bottom: 500px;
+
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid rgb(var(--foreground-rgb));
+  border-radius: 4px;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb));
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(var(--foreground-rgb));
+  border-radius: 4px;
+  background-color: rgb(55, 112, 55);
+
+}
